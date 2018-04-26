@@ -1,8 +1,10 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
+
+---
 ## Ex 1.1
 
 ```yaml
@@ -16,31 +18,21 @@ key: c8aae6c1c4
 Do some data science.
 
 `@instructions`
-
+Write simple SELECT statement
 
 `@hint`
 
 
 `@pre_exercise_code`
-
 ```{python}
-
-```
-
-`@sample_code`
-
-```{sql}
-
+SELECT ...
 ```
 
 `@solution`
-
-```{python}
-
-```
-
-`@sct`
-
 ```{sql}
-
+SELECT * FROM table;
 ```
+
+
+
+
